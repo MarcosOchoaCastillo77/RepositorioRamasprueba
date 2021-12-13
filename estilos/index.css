@@ -1,0 +1,179 @@
+.container-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 30%;
+    padding: 30px 0;
+    overflow: hidden;
+    background: #8B0000;
+    border-radius: 10px;
+    position: relative;
+    text-align: right;
+    margin-bottom: 60px;
+    box-shadow: 0 0 6px var(--color_shadow);
+}
+
+.card__img{
+    width: 95%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+}
+
+.cards__text{
+    text-align: left;
+    width: 90%;
+    margin:0 auto;
+    color:  white;
+
+}
+
+.card__list{
+    color: var(--gold2);
+    font-weight: 700;
+    margin: 25px 0 12px ;
+    font-size: 18px;
+}
+
+
+.card__title{
+    font-size: 40px;
+    color:  white;
+    margin-bottom: 8px;
+}
+
+.card__copy{
+    color: var(--gray2);
+    margin-bottom: 16px;
+}
+
+.card__button{
+    display: block;
+    background: black;
+    border-radius: 6px;
+    text-decoration: none;
+    width: 100%;
+    color: var(--black1);
+    font-weight: 700;
+    text-align: center;
+    padding: 12px 0;
+}
+
+.card__date{
+    color: var(--gold2);
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+header {
+    
+    font-family: 'arial';
+    font-size: 0.8em;
+    border-radius: 0px;
+    height: 25%;
+    background-color:#8B0000;
+    color:white;
+    text-align: left;
+    padding:1px;
+    margin-bottom: 1px;
+}
+
+header h2 {
+    text-shadow: 8px 8px 8px white;
+}
+
+figure { 
+padding: 5px;
+margin: 1px;
+border-image: 0px;
+    
+     }
+
+header figure img#panoramica {
+    float:left;
+    width:440px;
+    border-radius: 20px 20px;
+    height:100px;
+  }
+
+header figure img#logonormal {
+    float:right;
+    max-width: 100px;
+    height: 100px;
+     
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {left:-100px; top:0px;}
+    100%  {left:400px; top:0px;}    
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+}
+
+nav {
+    border-radius: 0px;
+    background: #8B0000;
+   
+}
+nav ul#menu { padding: 5px; }
+
+nav ul#menu li {
+    display: inline;
+}
+
+nav ul#menu li a {
+     text-align: right;
+    background-color: #8B0000;
+    color: white;
+   padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 0px 0px;
+
+}
+
+nav ul#menu li a:hover {
+    background-color: orange;
+}
+
+
+
+section {
+    margin: auto;
+    
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    font-family: 'arial';
+    font-size: 1.5em;
+    border-radius: 0px;
+    
+    padding: 1px;
+    
+    
+    box-shadow: 10px 10px 5px #8B0000;     
+}
+
+footer {
+    border-radius: 0px;
+    background-color:#5C5555;
+    color:white;
+    clear:both;
+    text-align:right;
+   padding:5px;      
+}
+

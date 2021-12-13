@@ -1,0 +1,99 @@
+
+
+
+header {
+    font-family: 'arial';
+    font-size: 0.8em;
+    border-radius: 0px;
+    height: 25%;
+    background-color:#8B0000;
+    color:white;
+    text-align: left;
+    padding:1px;
+    margin-bottom: 1px;
+}
+header h2 {
+
+    text-shadow: 8px 8px 8px #FF0000;
+}
+
+ figure {   
+    padding: 5px;
+    margin: 1px;
+    border-image: 0px;
+   
+ }
+ figure img#panoramica {
+    position: relative;
+    border-radius: 20px 20px;
+
+
+ }
+nav {
+    border-radius: 0px;
+    background-color:#8B0000;
+    margin-top: 0px;
+    padding: 1px;
+    line-height: 0px;
+}
+nav ul#menu {
+    padding: 5px;
+}
+
+nav ul#menu li {
+    display: inline;
+}
+
+nav ul#menu li a {
+    background-color: #8B0000;
+    color: white;
+   padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 0px 0px;
+
+}
+
+nav ul#menu li a:hover {
+    background-color: orange;
+}
+
+section {
+
+    margin: auto;
+    
+    width: 80%;
+    height: 100%;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-family: 'arial';
+    font-size: 1.5em;
+    border-radius: 0px;
+    
+    padding: 1px;
+    
+    
+    box-shadow: 10px 10px 5px #888888;
+}
+
+input[type=submit] {
+    padding: 10px;
+    margin-top: 5px;
+    width: 120px;
+    margin-left: 150px;
+    display: block;
+}
+
+footer {
+    border-radius: 0px;
+    background-color:#5C5555;
+    color:white;
+    clear:both;
+    text-align:right;
+   padding:5px;      
+}
+.row > div{
+  background: #f2f2f2;
+}
+.container-fluid{
+  background: azure;
+}
